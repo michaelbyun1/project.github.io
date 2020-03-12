@@ -1,0 +1,70 @@
+:root {
+  --undertone: #d3d3d3;
+  --light: #808080;
+  --dark: #696969;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+.title {
+  background-color: beige;
+  margin: 0;
+}
+
+.intro {
+  display: inline-grid;
+  grid-template-columns: repeat (2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.scroll-spy {
+  grid-column: 1/2;
+}
+
+.overview {
+  grid-column: 2/2;
+}
+
+.early-life {
+  background-color: var(--undertone);
+}
+
+.early-life-header {
+  text-align: center;
+}
+
+.professional-life {
+  background-color: var(--light);
+}
+
+.professional-life-header {
+  text-align: center;
+}
+
+.personal-life {
+  background-color: var(--undertone);
+}
+
+.personal-life-header {
+  text-align: center;
+}
+
+.works-of-art {
+  background-color: var(--light);
+}
+
+.works-of-art-header {
+  text-align: center;
+}
+
+.old-age-and-death {
+  background-color: var(--undertone);
+}
+
+.old-age-and-death-header {
+  text-align: center;
+}
