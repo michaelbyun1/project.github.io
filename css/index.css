@@ -8,25 +8,62 @@ html, body {
   margin:0;
   padding:0;
 }
+.nav {
+  background-color: #c1c1c1;
+}
+  .header {
+    padding: 10px 16px;
+    background-color: #c1c1c1;
+    height: 100px;
+    color: #000000;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 
+  }
+
+  .sticky + .content {
+    padding-top: 150px;
+  }
+
+#buttons li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #000;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 150px;
+  line-height: 60px;
+}
+
+li a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  color: #c1c1c1;
+  text-decoration: none;
+
+}
+}
 .title {
   background-color: beige;
   margin: 0;
 }
 
-.intro {
-  display: inline-grid;
-  grid-template-columns: repeat (2, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-
 .scroll-spy {
-  grid-column: 1/2;
+
 }
 
 .overview {
-  grid-column: 2/2;
+  padding-top: ;
 }
 
 .early-life {
