@@ -2,6 +2,9 @@
   --undertone: #d3d3d3;
   --light: #808080;
   --dark: #696969;
+  --blue: #ADD8E6;
+  --blue2: #89CFF0;
+  --default: #ffffff;
 }
 
 html, body {
@@ -9,10 +12,18 @@ html, body {
   padding:0;
 }
 
+.title {
+  padding: 10px;
+  background-color: var(--blue2);
+  color: var(--default);
+  text-align: center;
+  margin: 0px;
+}
+
 .nav {
   text-align: center;
   margin-top: 10px;
-  background-color: #c1c1c1;
+  background-color: var(--default);
 }
 
 a {
@@ -23,7 +34,7 @@ a {
 .btn {
   border: 2px solid lightblue;
   background-color: none;
-  padding: 15px 25px;
+  padding: 10px 20px;
   font-size: 20px;
   margin: 15px;
   cursor: pointer;
@@ -32,15 +43,6 @@ a {
 
 .btn:hover {
   color: lightblue;
-}
-
-.header {
-  padding: 10px 16px;
-  background-color: #c1c1c1;
-  height: 100px;
-  color: #000000;
-  width: 100%;
-   margin-bottom: 100px;
 }
   
 .sticky {
@@ -51,17 +53,6 @@ a {
 
 .sticky + .content {
   padding-top: 150px;
-}
-
-#buttons li {
-  float: left;
-  list-style: none;
-  text-align: center;
-  background-color: #000;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  width: 150px;
-  line-height: 60px;
 }
 
 li a{
@@ -76,21 +67,18 @@ li a:hover{
 
 }
 
-.title {
-  background-color: var(--undertone);
-  margin: 0;
-}
-
 .scroll-spy {
 
 }
 
 .overview {
-  padding-top: ;
+  background-color: var(--blue);
+  padding: 20px;
 }
 
 .early-life {
   background-color: var(--undertone);
+  padding: 20px;
 }
 
 .early-life-header {
@@ -99,6 +87,7 @@ li a:hover{
 
 .professional-life {
   background-color: var(--light);
+  padding: 20px;
 }
 
 .professional-life-header {
@@ -107,6 +96,7 @@ li a:hover{
 
 .personal-life {
   background-color: var(--undertone);
+  padding: 20px;
 }
 
 .personal-life-header {
@@ -115,6 +105,7 @@ li a:hover{
 
 .works-of-art {
   background-color: var(--light);
+  padding: 20px;
 }
 
 .works-of-art-header {
@@ -123,6 +114,7 @@ li a:hover{
 
 .old-age-and-death {
   background-color: var(--undertone);
+  padding: 20px;
 }
 
 .old-age-and-death-header {
