@@ -8,27 +8,50 @@ html, body {
   margin:0;
   padding:0;
 }
+
 .nav {
+  text-align: center;
+  margin-top: 10px;
   background-color: #c1c1c1;
 }
-  .header {
-    padding: 10px 16px;
-    background-color: #c1c1c1;
-    height: 100px;
-    color: #000000;
-    width: 100%;
-    margin-bottom: 100px;
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
 
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  .sticky + .content {
-    padding-top: 150px;
-  }
+.btn {
+  border: 2px solid lightblue;
+  background-color: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  color: lightblue;
+}
+
+.header {
+  padding: 10px 16px;
+  background-color: #c1c1c1;
+  height: 100px;
+  color: #000000;
+  width: 100%;
+   margin-bottom: 100px;
+}
+  
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 150px;
+}
 
 #buttons li {
   float: left;
@@ -52,9 +75,9 @@ li a:hover{
   text-decoration: none;
 
 }
-}
+
 .title {
-  background-color: beige;
+  background-color: var(--undertone);
   margin: 0;
 }
 
