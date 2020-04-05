@@ -9,6 +9,8 @@
 html, body {
   margin:0;
   padding:0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
 }
 
 .title {
@@ -48,7 +50,8 @@ a {
   background-color: none;
   color: var(--light);
   padding: 10px 20px;
-  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
   margin: 15px;
   cursor: pointer;
   transition: 0.8s;
@@ -152,7 +155,7 @@ li a:hover{
 
 #prevBtn {
   position: absolute;
-  top: 47%;
+  top: 46.5%;
   z-index: 999;
   left: 5%;
   font-size: 40px;
@@ -162,7 +165,7 @@ li a:hover{
 
 #nextBtn {
   position: absolute;
-  top: 47%;
+  top: 46.5%;
   z-index: 999;
   right: 5%;
   font-size: 40px;
