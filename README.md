@@ -1,6 +1,6 @@
 # A biography of Leonardo da Vinci
 
-##Colour palette
+## Colour palette
 
 #808080;
 #696969;
@@ -8,11 +8,11 @@
 #89CFF0;
 #ffffff;
 
-Font family:
+## Font family
 
 Dosis;
 
-Deliverables:
+## Deliverables
 
 - **Buttons on intro page that direct you  to each section -** Pro(s): Handy upon loading page and want to see a section immediately / Con(s): May be redundant with scroll-spy
 - **Progress bar -** Pro(s): Useful in knowing when article is done / Con(s): n/a
