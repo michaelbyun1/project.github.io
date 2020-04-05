@@ -138,8 +138,36 @@ li a:hover{
   padding: 10px;
 }
 
-.works-of-art-para {
-  margin: 80px;
+.carousel-container {
+  width:  35%;
+  margin: auto;
+  border: 5px solid var(--blue);
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 47%;
+  z-index: 999;
+  left: 5%;
+  font-size: 40px;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 47%;
+  z-index: 999;
+  right: 5%;
+  font-size: 40px;
+  color: var(--blue);
+  cursor: pointer;
 }
 
 .old-age-and-death {
