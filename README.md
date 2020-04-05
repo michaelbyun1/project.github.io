@@ -1,6 +1,6 @@
 # A biography of Leonardo da Vinci
 
-Colour palette:
+##Colour palette
 
 #808080;
 #696969;
