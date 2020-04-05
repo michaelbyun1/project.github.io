@@ -1,5 +1,4 @@
 :root {
-  --undertone: #d3d3d3;
   --light: #808080;
   --dark: #696969;
   --blue: #ADD8E6;
@@ -13,7 +12,7 @@ html, body {
 }
 
 .title {
-  padding: 10px;
+  padding: 15px;
   background-color: var(--blue2);
   color: var(--default);
   text-align: center;
@@ -21,9 +20,22 @@ html, body {
 }
 
 .nav {
+  width: 100%;
+  margin-top: 0px;
   text-align: center;
-  margin-top: 10px;
-  background-color: var(--default);
+}
+
+.nav img {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  margin-top: 0;
 }
 
 a {
@@ -34,6 +46,7 @@ a {
 .btn {
   border: 2px solid lightblue;
   background-color: none;
+  color: var(--light);
   padding: 10px 20px;
   font-size: 20px;
   margin: 15px;
@@ -72,51 +85,61 @@ li a:hover{
 }
 
 .overview {
-  background-color: var(--blue);
+  padding: 20px;
+}
+
+.overview-header {
+  text-align: center;
+  color: var(--light);
   padding: 20px;
 }
 
 .early-life {
-  background-color: var(--undertone);
   padding: 20px;
 }
 
 .early-life-header {
   text-align: center;
+  color: var(--light);
+  padding: 20px;
 }
 
 .professional-life {
-  background-color: var(--light);
   padding: 20px;
 }
 
 .professional-life-header {
   text-align: center;
+  color: var(--light);
+  padding: 20px;
 }
 
 .personal-life {
-  background-color: var(--undertone);
   padding: 20px;
 }
 
 .personal-life-header {
   text-align: center;
+  color: var(--light);
+  padding: 20px;
 }
 
 .works-of-art {
-  background-color: var(--light);
   padding: 20px;
 }
 
 .works-of-art-header {
   text-align: center;
+  color: var(--light);
+  padding: 20px;
 }
 
 .old-age-and-death {
-  background-color: var(--undertone);
   padding: 20px;
 }
 
 .old-age-and-death-header {
   text-align: center;
+  color: var(--light);
+  padding: 20px;
 }
