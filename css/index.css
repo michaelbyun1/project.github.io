@@ -33,7 +33,7 @@ html, body {
 .buttons {
   position: absolute;
   left: 0%;
-  top: 50%;
+  top: 45%;
   width: 100%;
   margin-top: 0;
 }
@@ -57,27 +57,15 @@ a {
 .btn:hover {
   color: lightblue;
 }
-  
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 150px;
-}
 
 li a{
   color: #fff;
   text-decoration: none;
-
 }
 
 li a:hover{
   color: #c1c1c1;
   text-decoration: none;
-
 }
 
 .scroll-spy {
@@ -85,61 +73,85 @@ li a:hover{
 }
 
 .overview {
-  padding: 20px;
+  padding: 0px;
 }
 
 .overview-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.overview-para {
+  margin: 80px;
 }
 
 .early-life {
-  padding: 20px;
+  padding: 0px;
 }
 
 .early-life-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.early-life-para {
+  margin: 80px;
 }
 
 .professional-life {
-  padding: 20px;
+  padding: 0px;
 }
 
 .professional-life-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.professional-life-para {
+  margin: 80px;
 }
 
 .personal-life {
-  padding: 20px;
+  padding: 0px;
 }
 
 .personal-life-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.personal-life-para {
+  margin: 80px;
 }
 
 .works-of-art {
-  padding: 20px;
+  padding: 0px;
 }
 
 .works-of-art-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.works-of-art-para {
+  margin: 80px;
 }
 
 .old-age-and-death {
-  padding: 20px;
+  padding: 0px;
 }
 
 .old-age-and-death-header {
   text-align: center;
   color: var(--light);
-  padding: 20px;
+  padding: 10px;
+}
+
+.old-age-and-death-para {
+  margin: 80px;
 }
