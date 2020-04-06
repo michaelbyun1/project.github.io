@@ -8,39 +8,12 @@
   color: white;
 }
 
-.dark-toggle {
-  border: 1px solid var(--default);
-  background: none;
-  padding: 10px 15px;
-  font-size: 15px;
-}
-
-.sticky-nav {
-  z-index: 9999;
-}
-
 :root {
   --light: #808080;
   --dark: #696969;
   --blue: #ADD8E6;
   --blue2: #89CFF0;
   --default: #ffffff;
-}
-
-html, body, main {
-  margin:0;
-  padding:0;
-  font-family: 'Dosis', sans-serif;
-  font-size: 18px;
-  height: 100%;
-}
-
-.title {
-  padding: 15px;
-  background-color: var(--blue2);
-  color: var(--default);
-  text-align: center;
-  margin: 0px;
 }
 
 nav { 
@@ -69,9 +42,39 @@ nav ul li a.active{
   background-color: var(--light);
 }
 
+html, body {
+  margin:0;
+  padding:0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  height: 100%;
+}
+
+.title {
+  padding: 15px;
+  background-color: var(--blue2);
+  color: var(--default);
+  text-align: center;
+  margin: 0px;
+}
+
+.nav {
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+}
+
 .nav img {
   width: 100%;
   height: auto;
+}
+
+.buttons {
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  width: 100%;
+  margin-top: 0;
 }
 
 a {
@@ -89,6 +92,11 @@ a {
   margin: 15px;
   cursor: pointer;
   transition: 0.8s;
+}
+
+.btn:hover {
+  color: lightblue;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 li a{
