@@ -11,6 +11,7 @@ html, body {
   padding:0;
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
+  height: 100%;
 }
 
 .title {
@@ -186,4 +187,10 @@ li a:hover{
 
 .old-age-and-death-para {
   margin: 50px;
+}
+
+.new-content {
+  height: 100%;
+	display: grid;
+	place-content: center;
 }
