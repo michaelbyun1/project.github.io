@@ -16,6 +16,10 @@
   --default: #ffffff;
 }
 
+.top-bar {
+  z-index: 9999;
+}
+
 nav { 
   position: fixed;
   top: 0;
