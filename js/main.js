@@ -78,3 +78,8 @@ let theStateOfTheInterface = (event) => {
 window.addEventListener('load', theStateOfTheInterface)
 window.addEventListener('scroll', theStateOfTheInterface)
 window.addEventListener('resize', theStateOfTheInterface)
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

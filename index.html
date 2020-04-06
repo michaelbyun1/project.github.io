@@ -9,7 +9,19 @@
     <script src="https://kit.fontawesome.com/e144e3034d.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1 class="title">leonardo da vinci - a biography.</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#overview" class="overview-marker active">overview</a></li>
+        <li><a href="#earlylife" class="earlylife-marker">early life</a></li>
+        <li><a href="#prolife" class="prolife-marker">professional life</a></li>
+        <li><a href="#perslife" class="perslife-marker">personal life</a></li>
+        <li><a href="#worksofart" class="worksofart-marker">works of art</a></li>
+        <li><a href="#oldage" class="oldage-marker">old age and death</a></li>
+      </ul><h1 class="title">leonardo da vinci - a biography.</h1>
+      <button onclick="myFunction()">Toggle dark mode</button>
+    </nav>
+    
     <div class="header" id="myHeader">
       <div class="nav">
         <img src="img/The-Last-Supper-Banner.jpg" alt="The Last Supper painting">
@@ -21,14 +33,6 @@
           <button class="btn"><a href="#worksofart">works of art</a></button>
           <button class="btn"><a href="#oldage">old age and death</a></button>
         </div>
-      </div>
-
-      <ul class="panel">
-        <!-- Info about the state of the interface will go here -->
-      </ul>
-
-      <div class="scroll-spy">
-
       </div>
     </div>
 
@@ -98,5 +102,30 @@
     </main>
     
     <script src="js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			(function() {
+
+                var navLinks = $('nav ul li a'),
+                    navH = $('nav').height(),
+                    section = $('section'),
+                    documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    var currentScrollPos = documentEl.scrollTop();
+                    
+                    section.each(function() {
+                        var self = $(this);
+                        if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
+                            var targetClass = '.' + self.attr('class') + '-marker';
+                            navLinks.removeClass('active');
+                            $(targetClass).addClass('active');
+                        }
+                    });
+                });
+			})();
+		</script>
   </body>
 </html>
