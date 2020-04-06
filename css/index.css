@@ -8,6 +8,17 @@
   color: white;
 }
 
+.dark-toggle {
+  border: 1px solid var(--default);
+  background: none;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.sticky-nav {
+  z-index: 9999;
+}
+
 :root {
   --light: #808080;
   --dark: #696969;
