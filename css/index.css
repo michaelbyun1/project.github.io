@@ -6,6 +6,7 @@
 .dark-mode {
   background-color: black;
   color: white;
+  transition: 1s;
 }
 
 :root {
@@ -125,6 +126,7 @@ li a:hover{
 
 .overview-para {
   margin: 50px;
+  line-height: 175%;
 }
 
 .early-life {
@@ -139,6 +141,7 @@ li a:hover{
 
 .early-life-para {
   margin: 50px;
+  line-height: 175%;
 }
 
 .professional-life {
@@ -153,6 +156,7 @@ li a:hover{
 
 .professional-life-para {
   margin: 50px;
+  line-height: 175%;
 }
 
 .personal-life {
@@ -167,6 +171,7 @@ li a:hover{
 
 .personal-life-para {
   margin: 50px;
+  line-height: 175%;
 }
 
 .works-of-art {
@@ -223,6 +228,7 @@ li a:hover{
 
 .old-age-and-death-para {
   margin: 50px;
+  line-height: 175%;
 }
 
 .new-content {
