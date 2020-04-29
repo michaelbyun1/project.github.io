@@ -40,7 +40,6 @@ carouselSlide.addEventListener('transitionend', () => {
   }
 });
 
-
 //Infinite content
 let haveHitBottom = false
 

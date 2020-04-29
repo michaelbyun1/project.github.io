@@ -256,3 +256,26 @@ li a:hover{
 	display: grid;
 	place-content: center;
 }
+
+.responsiveHeader {
+  text-align: center;
+  color: var(--default);
+  background-color: var(--blue2);
+  margin: 0;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .top-bar {
+    visibility: hidden;
+  }
+  .responsiveHeader {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-container {
+    width: 100%;
+  }
+}
