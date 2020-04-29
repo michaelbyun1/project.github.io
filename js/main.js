@@ -83,3 +83,19 @@ function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+//Parallax background
+const parallaxSlides = document.querySelectorAll('.introSlide')
+
+const parallaxBg = () => {
+  
+  parallaxSlides.forEach(slide => {
+    if (slide.getBoundingClientRect().top < window.innerHeight) {
+      slide.style.backgroundPositionY = `${(window.scrollY - slide.offsetTop) / 6}px`
+    }
+  })
+}
+
+window.addEventListener('load', event => parallaxBg())
+window.addEventListener('resize', event => parallaxBg())
+window.addEventListener('scroll', event => parallaxBg())
